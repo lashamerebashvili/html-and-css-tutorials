@@ -7,18 +7,23 @@
     <title>4. Forms</title>
 </head>
 <body>
-    <form action="/registration" method="POST">
+    <h1>Favorites</h1>
+    <form action="/">
         <label>
-            First name
-            <input type="text" name="firstName">
+            Tesla
+            <input type="checkbox" name="car" value="Tesla">
         </label>
         <label>
-            Last name
-            <input type="text" name="lastName">
+            Porsche
+            <input type="checkbox" name="car" value="Porsche">
         </label>
         <label>
-            Password
-            <input type="password" name="password" required>
+            BMW
+            <input type="checkbox" name="car" value="BMW">
+        </label>
+        <label>
+            Mercedes
+            <input type="checkbox" name="car" value="Mercedes">
         </label>
         <input type="submit" value="Send">
     </form>
