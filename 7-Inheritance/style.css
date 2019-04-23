@@ -1,6 +1,6 @@
-p.green {
+#item .green {
     color: green;
-}
+  }
   
 .parent .blue {
     color: blue;
