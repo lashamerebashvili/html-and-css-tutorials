@@ -1,8 +1,12 @@
 .link {
-    height: 100px;
-    width: 30px;
+    height: 20px;
     background-color: blue;
     display: block;
     color: white;
+    margin-bottom: 10px;
     padding: 10px;
+}
+
+nav .link:last-child {
+    margin-bottom: 0;
 }
