@@ -27,11 +27,19 @@ header, footer {
 .col {
     margin-right: 20px;
 }
- 
-.col-1, .col-2, .col-3 {
-    flex-grow: 1;
-}
 
 .row .col:last-child {
     margin-right: 0;
+}
+
+.col-1 {
+    flex-grow: 1;
+}
+
+.col-2 {
+    flex-grow: 2;
+}
+
+.col-3 {
+    flex-grow: 3;
 }
