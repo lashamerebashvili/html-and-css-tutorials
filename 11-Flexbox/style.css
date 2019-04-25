@@ -35,7 +35,3 @@ header, footer {
 .row .col:last-child {
     margin-right: 0;
 }
-
-.col-3 {
-    max-width: 60%;
-}
